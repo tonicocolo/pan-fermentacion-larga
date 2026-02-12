@@ -3,19 +3,21 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Pan de Fermentación Larga | Guías gratis + PDF premium</title>
-  <meta name="description" content="Guías claras para mejorar tu pan casero con fermentación larga en frío. Aprende a corregir errores y consigue resultados consistentes. PDF premium descargable." />
+
+  <title>PanSinPrisas | Pan de fermentación larga sin errores</title>
+  <meta name="description" content="PanSinPrisas: pan de fermentación larga, sin prisas y sin errores. Guías claras para mejorar tu pan casero con método y resultados consistentes. PDF premium descargable." />
   <meta name="robots" content="index,follow" />
+
+  <!-- Cambia esto cuando tengas dominio propio -->
   <link rel="canonical" href="https://TU-DOMINIO.com/" />
 
-  <!-- Open Graph -->
-  <meta property="og:title" content="Pan de Fermentación Larga" />
-  <meta property="og:description" content="Guías gratis y un PDF premium para dominar la fermentación larga en frío." />
+  <!-- Open Graph (cuando compartas en redes) -->
+  <meta property="og:title" content="PanSinPrisas" />
+  <meta property="og:description" content="Pan de fermentación larga, sin prisas y sin errores. Guías gratis + PDF premium descargable." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://TU-DOMINIO.com/" />
   <meta property="og:image" content="/assets/og.jpg" />
 
-  <!-- Favicon placeholders -->
   <link rel="icon" href="/assets/favicon.png" />
 
   <style>
@@ -45,7 +47,6 @@
     a{color:inherit; text-decoration:none}
     .wrap{max-width:var(--max); margin:0 auto; padding:0 20px}
 
-    /* Top bar */
     header{
       position:sticky; top:0; z-index:50;
       background: rgba(11,13,16,.75);
@@ -95,7 +96,6 @@
       border-color:rgba(246,193,119,.6);
     }
 
-    /* Hero */
     .hero{padding:54px 0 26px}
     .heroGrid{display:grid; grid-template-columns: 1.2fr .8fr; gap:22px; align-items:stretch}
     @media (max-width: 920px){ .heroGrid{grid-template-columns: 1fr} }
@@ -145,7 +145,6 @@
     }
     .dot{width:10px; height:10px; border-radius:999px; margin-top:6px; background: var(--brand2)}
 
-    /* Sections */
     section{padding:30px 0}
     .secTitle{display:flex; align-items:flex-end; justify-content:space-between; gap:12px; margin-bottom:12px}
     .secTitle h2{margin:0; font-size:26px; letter-spacing:-.01em}
@@ -165,7 +164,6 @@
     .card p{margin:0 0 12px; color:var(--muted)}
     .mini{font-size:13px; color:var(--muted)}
 
-    /* Blog list */
     .posts{display:grid; grid-template-columns: 1.2fr .8fr; gap:14px}
     @media (max-width:920px){ .posts{grid-template-columns:1fr} }
 
@@ -174,12 +172,12 @@
       border-radius: var(--radius);
       padding:16px;
       background: rgba(255,255,255,.03);
+      margin-bottom:10px;
     }
     .post a{display:block}
     .post h3{margin:0 0 6px; font-size:18px}
     .post p{margin:0; color:var(--muted)}
 
-    /* Premium */
     .premium{
       background: linear-gradient(135deg, rgba(246,193,119,.12), rgba(123,223,242,.08));
       border:1px solid rgba(246,193,119,.25);
@@ -190,11 +188,9 @@
     .bullets div{display:flex; gap:10px; align-items:flex-start}
     .check{width:18px; height:18px; border-radius:6px; background: rgba(123,223,242,.22); border:1px solid rgba(123,223,242,.5)}
 
-    /* Footer */
     footer{padding:26px 0 40px; border-top:1px solid var(--border); color:var(--muted)}
     footer a{color:var(--muted); text-decoration:underline; text-decoration-color:rgba(255,255,255,.18)}
 
-    /* Ad placeholder */
     .ad{
       border:1px dashed rgba(255,255,255,.18);
       border-radius: 16px;
@@ -205,14 +201,14 @@
     }
   </style>
 
-  <!-- JSON-LD (schema) -->
+  <!-- Schema WebSite -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    "name": "Pan de Fermentación Larga",
+    "name": "PanSinPrisas",
     "url": "https://TU-DOMINIO.com/",
-    "description": "Guías gratis para pan de fermentación larga en frío y PDF premium descargable.",
+    "description": "Pan de fermentación larga, sin prisas y sin errores. Guías gratis y PDF premium descargable.",
     "inLanguage": "es",
     "potentialAction": {
       "@type": "SearchAction",
@@ -222,10 +218,9 @@
   }
   </script>
 
-  <!--
-    ✅ AdSense (pegar cuando lo tengas)
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=TU_CLIENT_ID"
-      crossorigin="anonymous"></script>
+  <!-- ✅ AdSense: pega aquí tu script cuando te aprueben
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=TU_CLIENT_ID"
+    crossorigin="anonymous"></script>
   -->
 </head>
 
@@ -236,8 +231,8 @@
         <a class="brand" href="#top" aria-label="Ir al inicio">
           <div class="logo" aria-hidden="true"></div>
           <div>
-            <div style="font-size:14px; opacity:.9">Pan de</div>
-            <div style="margin-top:-2px; font-size:16px">Fermentación Larga</div>
+            <div style="font-size:14px; opacity:.9">Pan</div>
+            <div style="margin-top:-2px; font-size:16px">Sin Prisas</div>
           </div>
         </a>
 
@@ -258,31 +253,45 @@
         <div class="heroGrid">
           <div class="hcard">
             <div class="badge">🍞 Pan casero • ❄️ Frío • ⏱️ 12–48h</div>
-            <h1 class="title">Domina la fermentación larga en frío sin ensayo‑error.</h1>
+
+            <h1 class="title">Pan de fermentación larga, sin prisas y sin errores.</h1>
+
             <p class="subtitle">
-              Guías gratuitas, claras y directas para que tu pan abra en el horno, tenga buena miga y salga consistente.
-              Si quieres el atajo, tienes un PDF premium descargable con tablas, tiempos y soluciones.
+              En PanSinPrisas tienes guías claras y directas para que tu pan <b>abra en el horno</b>, tenga <b>buena miga</b> y salga
+              <b>consistente</b>. Si quieres el atajo, tienes un PDF premium descargable con tablas, tiempos y soluciones.
             </p>
+
             <div class="actions">
               <a class="btn primary" href="#guias">Ver guías gratis</a>
               <a class="btn" href="#premium">Ver PDF premium</a>
             </div>
 
             <div class="kpis" aria-label="Beneficios">
-              <div class="kpi"><b>Menos fallos</b><span>Evita colapsos, sobrefermentación y panes planos.</span></div>
-              <div class="kpi"><b>Más apertura</b><span>Greñado, tensión y vapor explicados sin humo.</span></div>
-              <div class="kpi"><b>Resultados repetibles</b><span>Tablas por temperaturas y nevera.</span></div>
+              <div class="kpi"><b>Menos fallos</b><span>Evita panes planos, colapsos y sobrefermentación.</span></div>
+              <div class="kpi"><b>Más apertura</b><span>Tensión, greñado y vapor explicados sin humo.</span></div>
+              <div class="kpi"><b>Repetible</b><span>Menos intuición, más método (con calma).</span></div>
             </div>
           </div>
 
           <aside class="hcard sideCard" aria-label="Para quién es">
-            <h3>¿Para quién es esta web?</h3>
-            <p>Para gente que hace pan en casa y quiere mejorar rápido, sin tecnicismos ni recetas imposibles.</p>
+            <h3>¿Para quién es PanSinPrisas?</h3>
+            <p>Para quien hace pan en casa y quiere mejorar rápido, sin tecnicismos y sin recetas imposibles.</p>
+
             <div class="list">
-              <div class="item"><div class="dot" aria-hidden="true"></div><div><b>Si tu pan no abre</b><div class="mini">Te digo por qué pasa y cómo corregirlo.</div></div></div>
-              <div class="item"><div class="dot" aria-hidden="true"></div><div><b>Si fermentas 24–48h</b><div class="mini">Aprende a ajustar tiempo/temperatura/hidratación.</div></div></div>
-              <div class="item"><div class="dot" aria-hidden="true"></div><div><b>Si quieres consistencia</b><div class="mini">Menos intuición, más método.</div></div></div>
+              <div class="item">
+                <div class="dot" aria-hidden="true"></div>
+                <div><b>Si tu pan no abre</b><div class="mini">Te digo por qué pasa y cómo corregirlo.</div></div>
+              </div>
+              <div class="item">
+                <div class="dot" aria-hidden="true"></div>
+                <div><b>Si fermentas 24–48h</b><div class="mini">Ajusta tiempo/temperatura/hidratación sin adivinar.</div></div>
+              </div>
+              <div class="item">
+                <div class="dot" aria-hidden="true"></div>
+                <div><b>Si quieres consistencia</b><div class="mini">Rutinas simples para repetir resultados.</div></div>
+              </div>
             </div>
+
             <div style="margin-top:14px" class="ad" aria-label="Espacio de anuncio">
               Espacio para anuncio (AdSense) — colócalo aquí cuando lo actives.
             </div>
@@ -293,24 +302,24 @@
       <section id="guias" aria-label="Guías gratuitas">
         <div class="secTitle">
           <h2>Guías gratis (empieza por aquí)</h2>
-          <p>Contenido evergreen pensado para posicionar y resolver problemas reales.</p>
+          <p>Contenido evergreen para resolver problemas reales.</p>
         </div>
 
         <div class="grid3">
           <article class="card">
             <h3>📌 Mi pan no abre (spring) en el horno</h3>
             <p>Las 7 causas típicas: tensión, greñado, sobrefermentación, vapor, temperatura, harina y formado.</p>
-            <a class="btn" href="#blog">Leer guía</a>
+            <a class="btn" href="#blog">Ver artículos</a>
           </article>
           <article class="card">
             <h3>❄️ Fermentación en nevera: 12–48h</h3>
-            <p>Cómo decidir si necesitas más o menos frío, cuándo pasar a temperatura ambiente y cuándo hornear.</p>
-            <a class="btn" href="#blog">Leer guía</a>
+            <p>Cuándo pasar a temperatura ambiente, cuándo hornear y cómo evitar que se pase.</p>
+            <a class="btn" href="#blog">Ver artículos</a>
           </article>
           <article class="card">
-            <h3>🌾 Qué harina usar (y por qué)</h3>
-            <p>Qué buscar en una harina para frío: fuerza, absorción, tolerancia y señales de sobremezcla.</p>
-            <a class="btn" href="#blog">Leer guía</a>
+            <h3>🌾 Harinas para fermentación larga</h3>
+            <p>Qué buscar para frío: fuerza, tolerancia, absorción y señales de masa “cansada”.</p>
+            <a class="btn" href="#blog">Ver artículos</a>
           </article>
         </div>
 
@@ -328,21 +337,24 @@
         <div class="grid3">
           <div class="card premium" style="grid-column:1/-1">
             <div style="display:flex; gap:18px; flex-wrap:wrap; align-items:flex-start; justify-content:space-between">
+
               <div style="min-width:260px; flex:1">
-                <div class="badge">📘 Guía definitiva</div>
-                <h3 style="margin:0 0 8px; font-size:24px">Pan de fermentación larga en frío (12–48h)</h3>
+                <div class="badge">📘 Guía PanSinPrisas</div>
+                <h3 style="margin:0 0 8px; font-size:24px">Fermentación larga en frío (12–48h), sin errores</h3>
                 <p style="margin:0; color:var(--muted)">
-                  El atajo para dejar de adivinar: tablas por temperatura, tiempos, hidratación, señales de fermentación y solución de fallos.
+                  El atajo para dejar de improvisar: tablas por temperatura, tiempos, hidratación, señales de fermentación y solución de fallos.
                 </p>
 
                 <div class="bullets" aria-label="Qué incluye">
-                  <div><div class="check" aria-hidden="true"></div><div><b>Tablas</b>: tiempos y rangos para 12/24/36/48h.</div></div>
-                  <div><div class="check" aria-hidden="true"></div><div><b>Diagnóstico</b>: por qué sale plano / denso / ácido / pegajoso.</div></div>
-                  <div><div class="check" aria-hidden="true"></div><div><b>Recetas base</b>: 70% y 75% (ajustes por harina).</div></div>
-                  <div><div class="check" aria-hidden="true"></div><div><b>Checklist</b>: qué mirar antes de hornear (para no fallar).</div></div>
+                  <div><div class="check" aria-hidden="true"></div><div><b>Tablas</b>: rangos para 12/24/36/48h (frío + ambiente).</div></div>
+                  <div><div class="check" aria-hidden="true"></div><div><b>Diagnóstico</b>: plano / denso / ácido / pegajoso / poca greña.</div></div>
+                  <div><div class="check" aria-hidden="true"></div><div><b>Recetas base</b>: 70% y 75% con ajustes según harina.</div></div>
+                  <div><div class="check" aria-hidden="true"></div><div><b>Checklist</b>: qué mirar antes de hornear para no fallar.</div></div>
                 </div>
 
-                <div class="mini">Ideal para: gente que ya hace pan y quiere resultados consistentes sin perder semanas.</div>
+                <div class="mini">
+                  Ideal si ya haces pan y quieres resultados consistentes sin perder semanas.
+                </div>
               </div>
 
               <div style="min-width:260px; max-width:360px">
@@ -351,11 +363,10 @@
                   <p class="price">9,90 € <span class="strike">14,90 €</span></p>
                   <p class="mini" style="margin:8px 0 14px">Entrega automática al pago (Stripe). Descarga inmediata.</p>
 
-                  <!--
-                    ✅ Pon aquí tu enlace real de Stripe Checkout cuando lo crees.
-                    Ejemplo: https://buy.stripe.com/XXXXXXXX
-                  -->
-                  <a class="btn primary" href="https://buy.stripe.com/TU_ENLACE" target="_blank" rel="noopener">Comprar y descargar</a>
+                  <!-- ✅ Pega aquí tu enlace real de Stripe Checkout -->
+                  <a class="btn primary" href="https://buy.stripe.com/TU_ENLACE" target="_blank" rel="noopener">
+                    Comprar y descargar
+                  </a>
 
                   <div style="margin-top:12px" class="mini">
                     Sin soporte. Sin suscripciones. Compra única.
@@ -366,6 +377,7 @@
                   Opcional: bloque de anuncio aquí (si no molesta a la conversión).
                 </div>
               </div>
+
             </div>
           </div>
         </div>
@@ -373,21 +385,26 @@
 
       <section id="blog" aria-label="Blog">
         <div class="secTitle">
-          <h2>Blog (ideas de artículos listos)</h2>
-          <p>Estos títulos son perfectos para atraer tráfico con intención real.</p>
+          <h2>Blog (títulos que atraen tráfico)</h2>
+          <p>Publica estos primeros para empezar a posicionar.</p>
         </div>
 
         <div class="posts">
           <div class="card">
             <h3 style="margin:0 0 10px">📌 Publica primero estos 8 (orden recomendado)</h3>
+
             <div class="post"><a href="#"><h3>1) Cuántas horas puede fermentar un pan en la nevera (sin pasarse)</h3><p>Señales claras de fermentación y cuándo hornear.</p></a></div>
-            <div class="post"><a href="#"><h3>2) Por qué mi pan no abre tras 24h en frío (y cómo arreglarlo)</h3><p>Las causas más comunes y soluciones rápidas.</p></a></div>
-            <div class="post"><a href="#"><h3>3) Hidratación 70%: cuándo funciona y cuándo se vuelve un desastre</h3><p>Cómo ajustar según harina y método.</p></a></div>
-            <div class="post"><a href="#"><h3>4) Masa pegajosa: diagnóstico (mezcla vs fermentación vs harina)</h3><p>Qué cambiar exactamente la próxima hornada.</p></a></div>
-            <div class="post"><a href="#"><h3>5) Greñado: ángulo, profundidad y momento correcto</h3><p>Consejos prácticos para una apertura limpia.</p></a></div>
+            <div class="post"><a href="#"><h3>2) Por qué mi pan no abre tras 24h en frío (y cómo arreglarlo)</h3><p>Causas típicas y soluciones concretas.</p></a></div>
+            <div class="post"><a href="#"><h3>3) Hidratación 70%: cuándo funciona y cuándo se vuelve un desastre</h3><p>Ajustes simples según harina y método.</p></a></div>
+            <div class="post"><a href="#"><h3>4) Masa pegajosa: diagnóstico (mezcla vs fermentación vs harina)</h3><p>Qué cambiar exactamente en la próxima hornada.</p></a></div>
+            <div class="post"><a href="#"><h3>5) Greñado: ángulo, profundidad y momento correcto</h3><p>Para una apertura limpia y controlada.</p></a></div>
             <div class="post"><a href="#"><h3>6) Vapor en horno doméstico: 5 métodos que sí funcionan</h3><p>Sin accesorios raros.</p></a></div>
             <div class="post"><a href="#"><h3>7) Harina de fuerza vs panadera: diferencias en fermentación larga</h3><p>Qué esperar de cada una.</p></a></div>
             <div class="post"><a href="#"><h3>8) Cómo saber si está sobrefermentado (pruebas fiables)</h3><p>Evita panes planos antes de hornear.</p></a></div>
+
+            <div class="ad" aria-label="Espacio de anuncio">
+              Espacio para anuncio (AdSense) — ideal entre posts.
+            </div>
           </div>
 
           <aside class="card">
@@ -395,13 +412,15 @@
             <p style="margin:0 0 12px; color:var(--muted)">
               Recomienda solo 5–8 herramientas. Poco inventario, alta intención.
             </p>
+
             <div class="list">
               <div class="item"><div class="dot" aria-hidden="true"></div><div><b>Báscula</b><div class="mini">Precisión = consistencia.</div></div></div>
-              <div class="item"><div class="dot" aria-hidden="true"></div><div><b>Rasqueta</b><div class="mini">Manejo sin añadir harina.</div></div></div>
+              <div class="item"><div class="dot" aria-hidden="true"></div><div><b>Rasqueta</b><div class="mini">Manejo limpio.</div></div></div>
               <div class="item"><div class="dot" aria-hidden="true"></div><div><b>Banneton</b><div class="mini">Forma + tensión en frío.</div></div></div>
               <div class="item"><div class="dot" aria-hidden="true"></div><div><b>Olla / cocotte</b><div class="mini">Vapor fácil en casa.</div></div></div>
               <div class="item"><div class="dot" aria-hidden="true"></div><div><b>Lámina de greñar</b><div class="mini">Corte limpio.</div></div></div>
             </div>
+
             <div style="margin-top:12px" class="ad" aria-label="Espacio de anuncio">
               Espacio para anuncio (AdSense) — lateral del blog.
             </div>
@@ -411,8 +430,8 @@
 
       <section id="legal" aria-label="Legal">
         <div class="secTitle">
-          <h2>Legal (plantillas rápidas)</h2>
-          <p>Necesarias para Google/AdSense. Aquí tienes texto base para completar.</p>
+          <h2>Legal (texto base)</h2>
+          <p>Necesario para Google/AdSense. Completa tus datos.</p>
         </div>
 
         <div class="grid3">
@@ -424,21 +443,22 @@
             </p>
             <div class="mini">Sustituye datos. Añade condiciones si procede.</div>
           </div>
+
           <div class="card">
             <h3>Política de privacidad</h3>
             <p>
-              Explica qué datos se recogen (por ejemplo: analítica, cookies, email si hay formulario), finalidad, base legal,
-              conservación, derechos del usuario y cómo ejercerlos.
+              Indica qué datos se recogen (analítica, cookies, etc.), finalidad, base legal, conservación, derechos del usuario y cómo ejercerlos.
             </p>
             <div class="mini">Si no recoges emails, indícalo explícitamente.</div>
           </div>
+
           <div class="card">
             <h3>Política de cookies</h3>
             <p>
               Informa del uso de cookies (analítica, publicidad, etc.). Si usas AdSense, tendrás cookies publicitarias.
               Implementa un banner de consentimiento.
             </p>
-            <div class="mini">Para WordPress hay plugins de consentimiento.</div>
+            <div class="mini">En WordPress hay plugins; en HTML puedes usar un banner sencillo.</div>
           </div>
         </div>
       </section>
@@ -446,7 +466,7 @@
       <footer>
         <div class="wrap">
           <div style="display:flex; flex-wrap:wrap; gap:10px; align-items:center; justify-content:space-between">
-            <div>© <span id="y"></span> Pan de Fermentación Larga</div>
+            <div>© <span id="y"></span> PanSinPrisas</div>
             <div style="display:flex; gap:10px; flex-wrap:wrap">
               <a href="#legal">Aviso legal</a>
               <a href="#legal">Privacidad</a>
@@ -454,10 +474,11 @@
             </div>
           </div>
           <div class="mini" style="margin-top:10px">
-            Nota: Este sitio es un boceto listo para copiar/pegar. Sustituye <b>TU-DOMINIO</b>, <b>TU NOMBRE</b> y el enlace de Stripe.
+            Nota: Sustituye <b>TU-DOMINIO</b> y el enlace de <b>Stripe</b> cuando lo tengas.
           </div>
         </div>
       </footer>
+
     </div>
   </main>
 
